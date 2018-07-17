@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href = "style.css" rel = "stylesheeet" type = "text/css"/>	
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 101 Template</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class = "navbar navbar-inverse navbar-static-top"> 
+		<div class = "container">
+ 
+			<img src = "pizzahut.png">
+
+			<a href = "#" class = "navbar-brand">sign in</a>
+
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+			</button>
+  
+			<div class = "collapse navbar-collapse navHeaderCollapse">
+
+				<ul class = "nav navbar-nav navbar-right">
+  
+				 	<li class = "active"><a href = "index.html">Home</a></li>
+					
+					<li class = "dropdown">
+
+						<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Menu<b class = "caret"></b></a>
+						<ul class = "dropdown-menu">
+							<li><a href ="pizza.html">Pizza</a></li>
+							<li><a href ="wings.html">Wings</a></li>
+							<li><a href ="sides.html">Sides</a></li>
+							<li><a href ="pasta.html">Pasta</a></li>
+							<li><a href ="dessert.html">Desserts</a></li>
+							<li><a href ="drinks.html">Drinks</a></li>
+							<li><a href ="sauce.html">Dipping Sauces</a></li>
+
+						</ul>		
+						
+					
+					</li>	
+					
+		
+					<li><a href = "#contact" data-toggle = "modal">Contact</a></li>
+
+
+
+
+
+
+
+					<li class = "dropdown">
+
+						<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
+						<ul class = "dropdown-menu">
+							<li><a href ="https://twitter.com/pizzahut?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+							<li><a href ="https://www.instagram.com/pizzahut/?hl=en">Instagram</a></li>
+							<li><a href ="https://www.instagram.com/pizzahut/?hl=en">Facebook</a></li>
+						</ul>		
+						
+					
+					</li>		
+
+
+				</ul>	
+		
+			</div>
+		</div>
+	</div>
+
+	<div class = "container">
+
+		<div class = "jumbotron">
+			<img src = "pizza.jpg" width="100%">
+			
+		</div>	
+	</div>	
+
+	</div>	
+
+	<div class = "conainer">
+
+		<div class = "row">
+
+			<div class = "col-md-3">
+
+				<h2>Our Story</h2>
+				<p>WHO WE ARE.
+There’s nothing cookie-cutter about Pizza Hut. Not our pizzas. Not our people.</p>
+				<a href = "ourstory.html" class = "btn btn-default">Read More</a>
+
+
+			</div>
+
+			<div class = "col-md-3">
+
+				<h2>Privacy Policy</h2>
+				<p>About This Policy
+This policy describes our privacy practices for the websites where it is posted.</p>
+				<a href = "privacypolicy.html" class = "btn btn-default">Read More</a>
+
+
+			</div>
+
+			<div class = "col-md-3">
+
+				<h2>Corporate Guidelines</h2>
+				<p>At Pizza Hut, Inc.® we believe in the importance of supporting the communities in which we live and work.</p>
+				<a href = "guidelines.html" class = "btn btn-default">Read More</a>
+
+
+			</div>
+
+			<div class = "col-md-3">
+
+				<h2>Supplier Code</h2>
+				<p>YUM! Brands, Inc. is committed to conducting its business in an ethical, legal and socially responsible manner.</p>
+				<a href = "suppliercode.html" class = "btn btn-default">Read More</a>
+
+
+			</div>
+		</div>
+	</div>	
+
+	<div class = "navbar navbar-default navbar-fixed-bottom">
+		<div class = "container">
+			<p class = "navbar-text">Site Built By Sharmin</p>
+		</div>	
+	</div>	
+
+	<div class = "modal fade" id = "contact" role = "dialog">
+		<div class = "modal-dialog">
+			<div class = "modal-content"></div>
+				<form class = "form-horizontal">
+				<div class = "modal-header">
+					<h3>Contact Restaurant</h3>
+				</div>	
+				<div class = "modal-body">
+				</div>
+
+
+				<div class = "form-group">
+						<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+			
+					<div class = "col-lg-18">	
+
+						<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+
+					</div>
+				</div>
+
+				<div class = "form-group">
+
+					<label for = "contact-email" class = "col-lg-18">Email:</label>
+					<div class = "col-lg-18">
+
+						<input type = "email" class = "form-control" id = "contact-email" placeholder = "bob@example.com">
+
+
+					</div>	
+				</div>	
+
+				<div class = "form-group">
+
+					<label for = "contact-msg" class = "col-lg-18">Message:</label>
+					<div class = "col-lg-18">
+
+						<textarea class = "form-control"></textarea>
+
+
+					</div>	
+
+
+				</div>
+
+				</div>		
+				<div class = "modal-footer">
+					<a class = "btn btn-primary" data-dismiss = "modal">Close</a>
+				</div>	
+			</div>
+
+
+
+		</div>	
+	</div>	
+				
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
